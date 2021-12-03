@@ -8,7 +8,7 @@ NOTEQUAL GREATER LESS LTEQ GTEQ
 DOT NUM ID REALNUM BASE08NUM BASE16NUM  
 
 ## Project 2: Parsing
-Here is the grammar for our input language:  
+Here is the grammar for the input language:  
 program -> global_vars scope  
 global_vars -> epsilon  
 global_vars -> var_list SEMICOLON  
@@ -25,7 +25,7 @@ stmt -> ID EQUAL ID SEMICOLON
 stmt -> scope  
 
 ## Project 3: Type Checking
-Here is the grammar for our input language:  
+Here is the grammar for the input language:  
 program -> global_vars body  
 global_vars -> epsilon  
 global_vars -> var_decl_list  
